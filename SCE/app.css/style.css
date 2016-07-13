@@ -1,0 +1,25 @@
+@-webkit-viewport { width: device-width; }
+@-moz-viewport    { width: device-width; }
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+
+#form_container{
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.input{
+    width: 100%;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0;
+  
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: rgba(255,255,255,0.9);
+}
